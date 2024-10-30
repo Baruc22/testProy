@@ -26,7 +26,8 @@ Asegúrate de tener instalado:
 
 - [Node.js](https://nodejs.org/) (versión 18 o superior)
 - [Angular CLI](https://angular.io/cli) (versión 16 o superior)
-- Base de datos compatible (MySQL)
+- Base de datos compatible [MySQL](https://www.mysql.com/)
+- Gestor de base de datos [phpMyAdmin](https://www.phpmyadmin.net/)
 
 ### Clonación del Repositorio
 
@@ -34,4 +35,30 @@ Clona el repositorio en tu máquina local usando el siguiente comando:
 
 ```bash
 git clone https://github.com/Baruc22/testProy.git
+```
+### Importación de la Base de Datos
 
+Para importar la base de datos, sube el archivo de la base de datos a tu gestor de base de datos. Este proyecto fue desarrollado usando *MySQL* junto con *phpMyAdmin* para la administración de la base de datos. 
+
+1. Entra a phpMyAdmin o el gestor de tu elección.
+2. Crea una nueva base de datos o selecciona una existente.
+3. Importa el archivo SQL proporcionado para cargar las tablas y datos iniciales del sistema.
+
+*Nota*: Asegúrate de usar la misma contraseña de tu base de datos en el archivo keys.ts dentro del proyecto cliente. Este archivo contiene las credenciales necesarias para que el sistema se conecte correctamente a la base de datos.
+
+
+### Intalacion de dependencias
+
+Una vez clonado el repositorio, navega a las carpetas del cliente y del servidor e instala las dependencias necesarias con los siguientes comandos:
+
+1. Backend:
+```bash
+cd testProy/server
+npm install
+```
+2. Frontend:
+```bash
+cd testProy/client
+npm install
+```
+### 

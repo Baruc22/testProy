@@ -92,7 +92,7 @@ Para levantar el proyecto sigue estos pasos:
 
 ### Uso
 
-- Partirás de la interfaz de inicio de sesión, accede con tus credenciales de profesor (se encuentran el la BD).
+- Partirás de la interfaz de inicio de sesión, accede con tus credenciales de profesor (se encuentran en la BD).
 - Una vez dentro, podrás visualizar tu información personal y utilizar el menú para realizar las operaciones CRUD de alumnos y asignación de calificaciones.
 
 ### Contribución

@@ -61,4 +61,31 @@ npm install
 cd testProy/client
 npm install
 ```
-### 
+### Ejecucion del proyecto (en modo desarrollo)
+
+Para levantar el proyecto sigue estos pasos:
+
+1. Backend:
+
+   Navega a la carperta del servidor y ejecuta los siguientes comandos:
+   - Compilación en tiempo real de TypeScript:
+     ```bash
+     cd testProy/server/src
+     tsc -w
+     ```
+  - Ejecución del servidor (modo desarrollo):
+     ```bash
+     cd testProy/server/src
+     npm run dev
+     ```
+  Esto iniciará el servidor backend y lo mantendrá en escucha de cualquier cambio.
+  
+2. Frontend:
+
+   En la carpeta del cliente ejecuta el siguiente comando:
+   ```bash
+   cd testProy/client
+   ng serve
+   ```
+
+   Esto iniciará el servidor de Angular para el frontend. Una vez iniciado, puedes acceder a la aplicación en (http://localhost:4200)

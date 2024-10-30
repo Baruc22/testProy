@@ -68,7 +68,7 @@ Para levantar el proyecto sigue estos pasos:
 1. Backend:
 
    Navega a la carperta del servidor y ejecuta los siguientes comandos:
-   - Compilación en tiempo real de TypeScript:
+   - Compilación en tiempo real de TypeScript (permite visualizar errores en tiempo real):
      ```bash
      cd testProy/server/src
      tsc -w
@@ -88,4 +88,17 @@ Para levantar el proyecto sigue estos pasos:
    ng serve
    ```
 
-   Esto iniciará el servidor de Angular para el frontend. Una vez iniciado, puedes acceder a la aplicación en (http://localhost:4200)
+   Esto iniciará el servidor de Angular para el frontend. Una vez iniciado, puedes acceder a la aplicación en http://localhost:4200
+
+### Uso
+
+- Partirás de la interfaz de inicio de sesión, accede con tus credenciales de profesor (se encuentran el la BD).
+- Una vez dentro, podrás visualizar tu información personal y utilizar el menú para realizar las operaciones CRUD de alumnos y asignación de calificaciones.
+
+### Contribución
+
+Este proyecto fue desarrollado como una prueba técnica y no está abierto a contribuciones externas.
+
+### Contacto
+
+Para cualquier duda o sugerencia, puedes contactarme en [baruc.cisneros99@gmail.com]

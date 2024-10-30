@@ -68,17 +68,17 @@ Para levantar el proyecto sigue estos pasos:
 1. Backend:
 
    Navega a la carperta del servidor y ejecuta los siguientes comandos:
-   - Compilación en tiempo real de TypeScript (permite visualizar errores en tiempo real):
+      - Compilación en tiempo real de TypeScript (permite visualizar errores en tiempo real):
      ```bash
      cd testProy/server/src
      tsc -w
      ```
-  - Ejecución del servidor (modo desarrollo):
+      - Ejecución del servidor (modo desarrollo):
      ```bash
      cd testProy/server/src
      npm run dev
      ```
-  Esto iniciará el servidor backend y lo mantendrá en escucha de cualquier cambio.
+     Esto iniciará el servidor backend y lo mantendrá en escucha de cualquier cambio.
   
 2. Frontend:
 
